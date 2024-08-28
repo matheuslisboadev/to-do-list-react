@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+}
+
+body {
+  background: #a9aaef;
+  background: -webkit-linear-gradient(186deg, #a9aaef 0%, #ae29fb 100%);
+  background: linear-gradient(186deg, #a9aaef 0%, #ae29fb 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.task{
+  border: 1px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  max-width: fit-content;
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.btn{
+  color: #ffffff;
+  background: #a9aaef;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background: #ae29fb;
+  
+}
+
+input::placeholder{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.NewTask{
+  background: #a9aaef;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+title{
+  text-align: center;
+  
+}
+
